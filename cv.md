@@ -24,7 +24,6 @@ I do website layout on freelance. The most interesting project was a layout of 1
 function sum(a, b) {
   return a + b;
 }
-
 let result = sum(1, 2);
 alert( result );
 ```
