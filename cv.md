@@ -20,7 +20,7 @@ I do website layout on freelance. The most interesting project was a layout of 1
 * Figma
 * Basic knowledge: JavaScript, jQuery, PHP
 ## Code Examples
-```
+```javascript
 function sum(a, b) {
   return a + b;
 }
