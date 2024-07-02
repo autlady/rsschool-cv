@@ -17,6 +17,7 @@ body {
     width: 100%;
     -webkit-font-smoothing: antialiased;
     font-family: "Cabin", sans-serif;
+    color: #fff;
 }
   
 a,
@@ -106,6 +107,7 @@ input[type="submit"] {
     margin-bottom: 10px;
     font-weight: 600;
     font-size: 40px;
+    color: #000;
 }
 
 .title {
@@ -115,13 +117,49 @@ input[type="submit"] {
     text-transform: uppercase;
 }
 
+.title--dark {
+    color: #000;
+}
+
 .subtitle {
     margin-bottom: 35px;
     font-weight: 600;
     font-size: 20px;
+    color: #000;
 }
 
-.main {
+.header__desc-text {
+    color: #000;
+}
+
+.main-wrapper {
     background-color: #292935;
 }
+
+.svg-git, .svg-tg, .svg-loc, .svg-ln {
+    width: 25px;
+    height: 25px;
+    fill: #ffc905;
+}
+
+.contacts__list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contacts__list-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.link {
+    color: #fff;
+    transition: 0.5s ease-in;
+}
+
+.link:hover {
+    color: #ffc905;
+    text-decoration: underline;
+}
+
 
