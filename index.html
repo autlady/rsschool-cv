@@ -11,47 +11,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header-top">
-        <div class="container">
-            <nav class="header-nav">
-                <ul class="header-menu">
-                    <li>
-                        <a href="#about">About me</a>
-                    </li>
-                    <li>
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#education">Education</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#hobbies">Hobbies</a>
-                    </li>
-                    <li>
-                        <a href="#contacts">Contacts</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section class="header-content">
-        <div class="container">
-            <div class="header-content__wrapper">
-                <div class="header__img">
-                    <img src="./img/photo.jpg" alt="header img">
-                </div>
-                <div class="header__desc">
-                    <h1 class="headline">Julia Grigorieva</h1>
-                    <h3 class="subtitle">Web-developer</h3>
-                    <h2 class="title title--dark" id="about">About me</h2>
-                    <p class="header__desc-text">I do website layout on freelance. The most interesting project was a layout of 16 pages for Center of Business Defence website - I worked hard and it took me a month. My goal is to become a professional web developer. I think creating a site is an exciting and creative process and I really enjoy it. I never stop learning and improve my skills. I'm not afraid of difficult tasks.</p>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <nav class="header-nav">
+                    <ul class="header-menu">
+                        <li>
+                            <a href="#about">About me</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#hobbies">Hobbies</a>
+                        </li>
+                        <li>
+                            <a href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        <div class="header-content">
+            <div class="container">
+                <div class="header-content__wrapper">
+                    <div class="header__img">
+                        <img src="./img/photo.jpg" alt="avatar">
+                    </div>
+                    <div class="header__desc">
+                        <h1 class="headline">Julia Grigorieva</h1>
+                        <h3 class="subtitle">Web-developer</h3>
+                        <h2 class="title title--dark" id="about">About me</h2>
+                        <p class="header__desc-text">I do website layout on freelance. The most interesting project was a layout of 16 pages for Center of Business Defence website - I worked hard and it took me a month. My goal is to become a professional web developer. I think creating a site is an exciting and creative process and I really enjoy it. I never stop learning and improve my skills. I'm not afraid of difficult tasks.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </header>
     <main class="main">
         <div class="container">
             <div class="main-wrapper">
@@ -90,9 +91,19 @@
                     <section class="education" id="education">
                         <h2 class="title">Education</h2>
                         <ul class="education__list">
-                            <li class="education__list-item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-                            <li class="education__list-item">Webcademy Advanced Layout Course</li>
-                            <li class="education__list-item">Webcademy Course: "HTML5 & CSS"</li>
+                            <li class="education__list-item">
+                                <p>2003-2008</p>
+                                <p>St. Petersburg State University of Architecture and Civil Engineering (economist)</p></li>
+                            <li class="education__list-item">
+                                <p>2020-2021</p>
+                                <p>University NTI 2035 Netology (iOS developer)</p></li>
+                            <li class="education__list-item">
+                                <p>2023</p>
+                                <p>Webcademy Course: "HTML5 & CSS"</p>
+                                <p>Webcademy Advanced Layout Course</p></li>                        
+                            <li class="education__list-item">
+                                <p>2024</p>
+                                <p>RS Schools Course «JavaScript/Front-end. Stage 0»</p></li>
                         </ul>
                     </section>
                     <section class="skills" id="skills">
@@ -112,33 +123,7 @@
                         <h2 class="title">Languages</h2>
                         <ul class="languages__list">
                             <li class="languages__list-item">English (B1)</li>
-                        </ul>
-                    </section>
-                </div>
-                <div class="main-column">
-                    <section class="projects" id="projects">
-                        <h2 class="title">Projects</h2>
-                        <ul class="projects__list">
-                            <li class="projects__list-item">
-                                <a class="link" href="http://juliagrigorieva.com/business/index.html" target="_blank">
-                                    Center Business Defence
-                                </a></li>
-                            <li class="projects__list-item">
-                                <a class="link" href="http://juliagrigorieva.com/travel/index.html" target="_blank">
-                                    Travel Agent
-                                </a></li>
-                            <li class="projects__list-item">
-                                <a class="link" href="http://juliagrigorieva.com/confectioner/index.html" target="_blank">
-                                    Confectioner
-                                </a></li>
-                            <li class="projects__list-item">
-                                <a class="link" href="http://juliagrigorieva.com/elegant-store/index.html" target="_blank">
-                                    Elegant Store
-                                </a></li>
-                            <li class="projects__list-item">
-                                <a class="link" href="http://juliagrigorieva.com/unit/index.html" target="_blank">
-                                    UNIT
-                                </a></li>
+                            <li class="languages__list-item">Russian (native)</li>
                         </ul>
                     </section>
                     <section class="hobbies" id="hobbies">
@@ -159,6 +144,43 @@
                                     <use href="./img/svgSprite.svg#svg-travel"></use>
                                 </svg>
                                 <p>Travelling</p></div>
+                        </div>
+                    </section>
+                </div>
+                <div class="main-column">
+                    <section class="projects" id="projects">
+                        <h2 class="title">Projects</h2>
+                        <div class="projects__wrapper">
+                            <a class="project-card" href="http://juliagrigorieva.com/business/index.html" target="_blank">
+                                <div class="project-card__img">
+                                    <img src="./img/projects/business.jpg" alt="project img">
+                                </div>
+                                <h4 class="project-card__title">Center of Business Defence</h4></a>
+                            <a class="project-card" href="http://juliagrigorieva.com/travel/index.html" target="_blank">
+                                <div class="project-card__img">
+                                    <img src="./img/projects/travel-agent.jpg" alt="project img">
+                                </div>
+                                <h4 class="project-card__title">Travel Agent</h4></a>
+                            <a class="project-card" href="http://juliagrigorieva.com/confectioner/index.html" target="_blank">
+                                <div class="project-card__img">
+                                    <img src="./img/projects/confectioner.jpg" alt="project img">
+                                </div>
+                                <h4 class="project-card__title">Confectioner</h4></a>
+                            <a class="project-card" href="http://juliagrigorieva.com/elegant-store/index.html" target="_blank">
+                                <div class="project-card__img">
+                                    <img src="./img/projects/elegant-store.jpg" alt="project img">
+                                </div>
+                                <h4 class="project-card__title">Elegant Store</h4></a>
+                            <a class="project-card" href="http://juliagrigorieva.com/interior-design/index.html" target="_blank">
+                                <div class="project-card__img">
+                                    <img src="./img/projects/interior-design.jpg" alt="project img">
+                                </div>
+                                <h4 class="project-card__title">Interior Design Portfolio</h4></a>
+                            <a class="project-card" href="http://juliagrigorieva.com/unit/index.html" target="_blank">
+                                <div class="project-card__img">
+                                    <img src="./img/projects/unit.jpg" alt="project img">
+                                </div>
+                                <h4 class="project-card__title">Unit</h4></a>
                         </div>
                     </section>
                 </div>
