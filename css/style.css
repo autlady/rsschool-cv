@@ -134,9 +134,15 @@ input[type="submit"] {
 
 .main-wrapper {
     background-color: #292935;
+    display: flex;
+    column-gap: 30px;
 }
 
-.svg-git, .svg-tg, .svg-loc, .svg-ln {
+.column {
+    width: 478px;
+}
+
+.svg-git, .svg-tg, .svg-loc, .svg-ln, .svg-music, .svg-tennis, .svg-travel {
     width: 25px;
     height: 25px;
     fill: #ffc905;
@@ -161,5 +167,24 @@ input[type="submit"] {
     color: #ffc905;
     text-decoration: underline;
 }
+
+.education__list-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.skills__list-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.hobbies__row {
+    display: flex;
+    gap: 50px;
+}
+
+.hobbies-item {
+    display: block;
+    text-align: center;
+}
+
 
 
