@@ -5,7 +5,207 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <nav class="header-nav">
+                    <ul class="header-menu">
+                        <li>
+                            <a href="#about">About me</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#hobbies">Hobbies</a>
+                        </li>
+                        <li>
+                            <a href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="container">
+                <div class="header-content__wrapper">
+                    <div class="header__img">
+                        <img src="./img/photo.jpg" alt="avatar">
+                    </div>
+                    <div class="header__desc">
+                        <h1 class="headline">Julia Grigorieva</h1>
+                        <h3 class="subtitle">Web-developer</h3>
+                        <h2 class="title title--dark" id="about">About me</h2>
+                        <p class="header__desc-text">I do website layout on freelance. The most interesting project was a layout of 16 pages for Center of Business Defence website - I worked hard and it took me a month. My goal is to become a professional web developer. I think creating a site is an exciting and creative process and I really enjoy it. I never stop learning and improve my skills. I'm not afraid of difficult tasks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main-wrapper">
+                <div class="column">
+                    <section class="contacts" id="contacts">
+                        <h2 class="title">Contacts</h2>
+                        <ul class="contacts__list">
+                            <li class="contacts__list-item">
+                                <svg class="svg-git">
+                                    <use href="./img/svgSprite.svg#svg-git"></use>
+                                </svg>
+                                <a href="https://github.com/autlady" target="_blank" class="link">github.com/autlady</a>
+                            </li>
+                            <li class="contacts__list-item">
+                                <svg class="svg-tg">
+                                    <use href="./img/svgSprite.svg#svg-tg"></use>
+                                </svg>
+                                <a href="https://t.me/autlady" target="_blank" class="link">t.me/autlady</a>
+                            </li>
+                            <li class="contacts__list-item">
+                                <svg class="svg-ln">
+                                    <use href="./img/svgSprite.svg#svg-ln"></use>
+                                </svg>
+                                <a href="https://www.linkedin.com/in/autlady/" target="_blank" class="link">linkedin.com/in/autlady/</a>
+                            </li>
+                            <li class="contacts__list-item">
+                                <svg class="svg-loc">
+                                    <use href="./img/svgSprite.svg#svg-loc"></use>
+                                </svg>
+                                <div class="contacts__text">
+                                    <p>Saint-Petersburg, Russia</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="education" id="education">
+                        <h2 class="title">Education</h2>
+                        <ul class="education__list">
+                            <li class="education__list-item">
+                                <p>2003-2008</p>
+                                <p>St. Petersburg State University of Architecture and Civil Engineering (economist)</p></li>
+                            <li class="education__list-item">
+                                <p>2020-2021</p>
+                                <p>University NTI 2035 Netology (iOS developer)</p></li>
+                            <li class="education__list-item">
+                                <p>2023</p>
+                                <p>Webcademy Course: "HTML5 & CSS"</p>
+                                <p>Webcademy Advanced Layout Course</p></li>                        
+                            <li class="education__list-item">
+                                <p>2024</p>
+                                <p>RS Schools Course «JavaScript/Front-end. Stage 0»</p></li>
+                        </ul>
+                    </section>
+                    <section class="skills" id="skills">
+                        <h2 class="title">Skills</h2>
+                        <ul class="skills__list">
+                            <li class="skills__list-item">HTML5</li>
+                            <li class="skills__list-item">CSS3</li>
+                            <li class="skills__list-item">JS basic</li>
+                            <li class="skills__list-item">Pixel Perfect</li>
+                            <li class="skills__list-item">PUG</li>
+                            <li class="skills__list-item">GULP</li>
+                            <li class="skills__list-item">SCSS</li>
+                            <li class="skills__list-item">Git&Github</li>
+                        </ul>
+                    </section>
+                    <section class="languages">
+                        <h2 class="title">Languages</h2>
+                        <ul class="languages__list">
+                            <li class="languages__list-item">English (B1)</li>
+                            <li class="languages__list-item">Russian (native)</li>
+                        </ul>
+                    </section>
+                    <section class="hobbies" id="hobbies">
+                        <h2 class="title">Hobbies</h2>
+                        <div class="hobbies__row">
+                            <div class="hobbies-item">
+                                <svg class="svg-music">
+                                    <use href="./img/svgSprite.svg#svg-music"></use>
+                                </svg>
+                                <p>Music</p></div>
+                            <div class="hobbies-item">
+                                <svg class="svg-tennis">
+                                    <use href="./img/svgSprite.svg#svg-tennis"></use>
+                                </svg>
+                                <p>Tennis</p></div>
+                            <div class="hobbies-item">
+                                <svg class="svg-travel">
+                                    <use href="./img/svgSprite.svg#svg-travel"></use>
+                                </svg>
+                                <p>Travelling</p></div>
+                        </div>
+                    </section>
+                </div>
+                <div class="main-column">
+                    <section class="projects" id="projects">
+                        <h2 class="title">Projects</h2>
+                        <div class="projects__wrapper">
+                            <a class="project-card" href="http://juliagrigorieva.com/business/index.html" target="_blank">
+                                <div class="project-card__img">
+                                    <img src="./img/projects/business.jpg" alt="project img">
+                                </div>
+                                <h4 class="project-card__title">Center of Business Defence</h4></a>
+                            <a class="project-card" href="http://juliagrigorieva.com/travel/index.html" target="_blank">
+                                <div class="project-card__img">
+                                    <img src="./img/projects/travel-agent.jpg" alt="project img">
+                                </div>
+                                <h4 class="project-card__title">Travel Agent</h4></a>
+                            <a class="project-card" href="http://juliagrigorieva.com/confectioner/index.html" target="_blank">
+                                <div class="project-card__img">
+                                    <img src="./img/projects/confectioner.jpg" alt="project img">
+                                </div>
+                                <h4 class="project-card__title">Confectioner</h4></a>
+                            <a class="project-card" href="http://juliagrigorieva.com/elegant-store/index.html" target="_blank">
+                                <div class="project-card__img">
+                                    <img src="./img/projects/elegant-store.jpg" alt="project img">
+                                </div>
+                                <h4 class="project-card__title">Elegant Store</h4></a>
+                            <a class="project-card" href="http://juliagrigorieva.com/interior-design/index.html" target="_blank">
+                                <div class="project-card__img">
+                                    <img src="./img/projects/interior-design.jpg" alt="project img">
+                                </div>
+                                <h4 class="project-card__title">Interior Design Portfolio</h4></a>
+                            <a class="project-card" href="http://juliagrigorieva.com/unit/index.html" target="_blank">
+                                <div class="project-card__img">
+                                    <img src="./img/projects/unit.jpg" alt="project img">
+                                </div>
+                                <h4 class="project-card__title">Unit</h4></a>
+                        </div>
+                    </section>
+                </div>
+            </div> 
+        </div>
+    </main> 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-copyright">
+                <div class="footer-social">
+                    <a href="https://github.com/autlady" target="_blank">
+                        <svg class="svg-git">
+                            <use href="./img/svgSprite.svg#svg-git"></use>
+                        </svg>
+                    </a>
+                </div>
+                <p class="copyright">&copy; 2024 Julia Grigorieva</p>
+                <div class="footer-logo">
+                    <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                        <img src="./img/logo.png" alt="rsschool logo"></a>  
+                </div>
+
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
